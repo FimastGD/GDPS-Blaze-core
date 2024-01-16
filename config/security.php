@@ -8,6 +8,6 @@ $preactivateAccounts = false; //false = acounts need to be activated at tools/ac
 	Currently the only supported provider is hCaptcha
 	https://www.hcaptcha.com/
 */
-$enableCaptcha = true;
-$hCaptchaKey = "1b19a7a5-0b21-4268-96e2-1be3a1f5f8a2";
-$hCaptchaSecret = "0x763f936Cf06Bb650645276d9D350527BC6577FC3";
+$enableCaptcha = false;
+$hCaptchaKey = "";
+$hCaptchaSecret = "";
