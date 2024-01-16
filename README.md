@@ -11,7 +11,7 @@ PHP >= 7.0.0
 # Setup
 [EN] In order to start the GDPS you need to:
 1. Buy a server and a domain, if possible, create a free server
-2. Create a database
+2. Create a database and load **DATABASE.sql**
 3. Change the name, passwords and name of the database in **_config/connection.php_ And _panel/config/connect.php_**
 4. Create GDPS clients and replace servers with www.boomlings.com/database on yourserver.com and base64(www.boomlings.com/database) on base64(yourserver.com) provided that the original server and yours have the **same** number of characters
 5. Register an account in GDPS and **separate** in GDPS panel and activate **GDPS** account in GDPS **panel**
@@ -21,7 +21,7 @@ PHP >= 7.0.0
 
 [RU] Для того, чтобы запустить GDPS вам нужно:
 1. Купить сервер и домен, если возможно создать бесплатный сервер
-2. Создать базу данных
+2. Создать базу данных и загрузить **DATABASE.sql**
 3. Изменить имя, пароли и название базы данных в **_config/connection.php_ И _panel/config/connect.php_**
 4. Создать GDPS клиенты и заменить сервера с www.boomlings.com/database на yourserver.com и base64(www.boomlings.com/database) на base64(yourserver.com) при условии что оригинальный сервер и ваш имеют **одинаковое** количество символов
 5. Зарегистрируйте аккаунт в GDPS и **отдельный** в GDPS панели и активируйте **GDPS** аккаунт в GDPS **панели**
@@ -34,6 +34,8 @@ PHP >= 7.0.0
 [RU] Так как это **старое ядро**, я больще не занимаюсь вашими вопросами по данному ядру
 
 # Credits
+[GDPS Hosting **BlazeHost** with **ChaosCore**](https://www.blazehost.ru)
+<br>
 **PHP 7.4.0**
 <br>
 [**GMD Private Server** by **Cvolton**](https://github.com/Cvolton/GMDprivateServer/tree/master)
