@@ -31,7 +31,7 @@ PHP >= 7.0.0
 # Ask to me
 [EN] Since this is an **old core**, I am no longer dealing with your questions about this core
 <br>
-[RU] Так как это **старое ядро**, я больще не занимаюсь вашими вопросами по данному ядру
+[RU] Так как это **старое ядро**, я больше не занимаюсь вашими вопросами по данному ядру
 
 # Credits
 [GDPS Hosting **BlazeHost** with **ChaosCore**](https://www.blazehost.ru)
