@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    transition: ease-in-out 0.2s;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --primary: #fd7e3e;
+    --secondary: #ff85477;
+    --dark: #181818;
+    --dark-2: #212121;
+    --dark-3: #303030;
+    --dark-3: #303030;
+}
+
+
+body {
+    background: var(--dark);
+}
+
+
+
+#toolbox {
+    background: var(--dark-2);
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+#cron {
+    display: block;
+    background: var(--dark-2);
+    text-align: center;
+}
+
+#cron p {
+    color: var(--primary);
+    padding: 15px;
+}
+
+#cron h1 {
+    font-size: 30px;
+    color: var(--primary);
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    background: var(--dark-3);
+    margin-top: 5%;
+    margin: 1% 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #383838;
+}
+
+td .button {
+    display: inline-block;
+    padding: 5px;
+    color: black;
+    background: #36393e;
+    margin: 1% 10px;
+    cursor: pointer;
+}
+
+.toolName {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+#toolbox h1, #tools h1 {
+    font-size: 30px;
+    color: var(--primary);
+    text-align: center;
+    padding-top: 10px;
+}
+
+::-webkit-file-upload-button {
+    display: none;
+}
+
+
+footer {
+    color: var(--dark-3);
+    margin-top: 27%;
+    text-align: center;
+}
+
+footer span, footer a {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+canvas {
+    margin: 0 auto;
+    width: 90%;
+    height: 100;
+}
+
+#toolbox__log {
+    margin-top: 5%;
+}
+
+#toolbox__log a {
+    color: #fff;
+}
+
+input[type=file] {
+    margin-top: 5%;
+    border: dotted var(--primary) 2px;
+    color: var(--primary);
+    padding: 30px;
+    background: var(--dark-3);
+}
+
+form .button {
+    margin: 10px;
+    border: 0;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 30px;
+    color: var(--primary);
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.form button[disabled] {
+
+    margin: 10px;
+
+    border: 0;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 30px;
+    color: #964B24;
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: not-allowed;
+    background: #3D3D3D;
+}
+
+#toolbox__log {
+    color: var(--primary);
+}
+
+@media screen and (max-width: 780px) {
+    canvas {
+        width: 100%;
+    }
+}
+
+.form {
+    color: var(--primary);
+}
+
+.form input[type="submit"] {
+    margin: 10px;
+    border: 0;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 30px;
+    color: var(--primary);
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    background: var(--dark-3);
+}
+
+.form .a {
+
+    margin: 10px;
+
+    border: 0;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 30px;
+    color: var(--primary);
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    background: var(--dark-3);
+}
+
+
+.form button {
+
+    margin: 10px;
+
+    border: 0;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 30px;
+    color: var(--primary);
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    background: var(--dark-3);
+}
+
+
+.form input[type="text"],
+.form input[type="password"] {
+    margin: 10px;
+    border: 0;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px 20px;
+    color: var(--primary);
+    transition: box-shadow 0.3s, transform 0.3s;
+    background: var(--dark-3);
+    border-radius: 10px;
+}
+
+.table {
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.table th {
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    background: var(--dark-3);
+    font-size: 14px;
+    color: var(--primary);
+}
+
+.table tr th:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.table tr th:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.table td {
+    text-align: center;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    vertical-align: top;
+    color: #fff;
+}
+
+.table tr {
+    background: #282b30;
+}
+
+.table tr td:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.table tr td:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.table td a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.log {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+white {
+    color: #fff;
+}
+whitecol {
+
+    color: #fff;
+
+}
